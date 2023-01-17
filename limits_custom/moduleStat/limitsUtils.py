@@ -92,7 +92,7 @@ def get_limits(base_path, suffix, year, output_path):
     limits = {}
 
     if not os.path.isdir(output_path):
-        os.system("mkdir "+output_path)
+        os.system("mkdir -p "+output_path)
 
     r_invs = set()
 

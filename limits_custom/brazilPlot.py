@@ -288,7 +288,7 @@ def main():
     c1.Update()
 
     if not os.path.isdir(options.output_path):
-        os.system("mkdir "+options.output_path)
+        os.system("mkdir -p "+options.output_path)
 
     c1.SaveAs("%s/limits_rinv%s_%s.pdf" % (options.output_path, options.r_inv.replace(".","p"), options.year))
 
