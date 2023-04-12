@@ -16,3 +16,4 @@ git checkout v8.2.0
 scramv1 b clean; scramv1 b # always make a clean build
 . env_standalone.sh
 make -j 4
+cd ../..
